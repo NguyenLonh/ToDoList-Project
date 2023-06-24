@@ -8,5 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class category extends Model
 {
     use HasFactory;
+    protected $tabble = 'category';
+    protected $fillable =[
+        'name',
+    ];
     
 }
