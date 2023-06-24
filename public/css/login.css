@@ -1,0 +1,60 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 39%;
+    padding-top: 55px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ac42a8;
+}
+
+.alert-danger {
+    color: red;
+}
+
+/* Background image */
+body {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/* Mouse hover effect */
+.btn:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #c62c2c;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 300px;
+  }

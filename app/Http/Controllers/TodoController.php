@@ -39,6 +39,7 @@ class TodoController extends Controller
         $todo->title = $request->title;
         $todo->goal = $request->goal;
         $todo->persons_id = $request->person;
+        $todo->deadline = $request->deadline;
         $todo->bonus = $request->bonus;
         $todo->punish = $request->punish;
         $todo->description = $request->description;
@@ -87,9 +88,11 @@ class TodoController extends Controller
         $todo->title = $request->title;
         $todo->goal = $request->goal;
         $todo->persons_id = $request->person;
+        $todo->deadline = $request->deadline;
         $todo->bonus = $request->bonus;
         $todo->punish = $request->punish;
         $todo->description = $request->description;
+        
 
         $todo->save();
 

@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('/body', function () {
+    return view('layout.body');
+});
 
 
 

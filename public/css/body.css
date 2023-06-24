@@ -1,0 +1,8 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://file.mockplus.com/image/2018/10/07d054b9-e2ea-405f-b270-23e2972b0cd7.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
